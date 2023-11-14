@@ -7,10 +7,15 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
+    background-color: #f0f0f0; /* 배경색 추가 */
 }
 
 .calculator {
     text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 #display {
@@ -18,6 +23,8 @@ body {
     padding: 10px;
     margin-bottom: 10px;
     font-size: 1.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
 }
 
 .buttons {
@@ -30,8 +37,12 @@ button {
     padding: 15px;
     font-size: 1em;
     cursor: pointer;
+    background-color: #ff69b4; /* 핑크색 */
+    color: #fff; /* 흰색 텍스트 */
+    border: none;
+    border-radius: 5px;
 }
 
 button:hover {
-    background-color: #ddd;
+    background-color: #d14589; /* hover 시 색상 변경 */
 }
